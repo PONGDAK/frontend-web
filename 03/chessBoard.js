@@ -29,7 +29,8 @@ for (var i = 0; i < 16; i++) {
     board.appendChild(spanArray[i]);
 }
 
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function(event) { //스타일쪽 헤더에 놔둬도 컨텐츠가 전부 로딩된다음
+                                                              //실행되어 에러가 안남
 
 var divs = document.querySelectorAll('#board span');
   function changeBg(event) {
