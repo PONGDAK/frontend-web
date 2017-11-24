@@ -1,0 +1,26 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "file.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js",
+    "gulp:test" : "gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "hi"
+  ],
+  "author": "sumin",
+  "license": "ISC",
+  "dependencies": {
+    "pretty-bytes": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
